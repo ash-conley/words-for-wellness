@@ -1,0 +1,149 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #faf8f8;
+  color: #333;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Headings === */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: #4d9abf; /* Soft blue */
+}
+
+h3 {
+  color: #7e88c5; /* Muted purple */
+}
+
+.section-heading-green h2 {
+  color: #5d9a91; /* Dusty teal green */
+}
+
+.section-heading-teal h2 {
+  color: #469d9d; /* Soft teal */
+}
+
+/* Hero Section */
+.hero {
+  background: url("images/hero.jpg") center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 32px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 16px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+.lead {
+  font-size: 19.2px;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+
+/*  Navbar  */
+.navbar {
+  background-color: #6b9099 /* Soft teal */
+}
+
+.navbar-brand, 
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link.active {
+  border-bottom: 2px solid white;
+}
+
+/*  Section Dividers  */
+section {
+  padding: 4rem 0;
+  border-top: 1px solid #ddd;
+}
+
+/* === Footer === */
+footer {
+  background-color: #4ca3a3;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+/*  Cards, Boxes, and Containers  */
+.card, .content-box {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/*  Buttons  */
+.btn-primary {
+  background-color: #7e88c5;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #5d6b9a;
+  color: white;
+}
+
+/*  Responsive Typography  */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero {
+    padding: 3rem 1rem;
+  }
+}
+
+
+/* Cards  */
+.card, .content-box {
+  background-color: #fffdf8; /* soft off-white */
+  border: 1px solid #e8e6e1; /* light beige border */
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04); /* subtle shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover, .content-box:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+
